@@ -13,3 +13,10 @@ h1 {
 .main-container {
 	border: 2px dashed $red;
 }
+
+@mixin border-radius($radius) {
+ -webkit-border-radius:  $radius;
+	-moz-border-radius:  $radius;
+	 -ms-border-radius:  $radius;
+		 border-radius:  $radius;
+}
